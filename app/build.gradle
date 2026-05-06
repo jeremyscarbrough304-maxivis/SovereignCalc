@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+android {
+    namespace 'com.maxivis.sovereigncalc'
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.maxivis.sovereigncalc"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
